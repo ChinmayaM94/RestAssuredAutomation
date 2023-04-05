@@ -31,6 +31,7 @@ public class PlayListTests {
 		assertThat(responsePlayList.getName(), equalTo(requestPlayList.getName())); 
 		assertThat(responsePlayList.getDescription(), equalTo(requestPlayList.getDescription())); 
 		assertThat(responsePlayList.get_public(), equalTo(requestPlayList.get_public())); 
+		System.out.println("Hello");
 	}
 	
 	@Test
